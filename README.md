@@ -40,4 +40,11 @@ Although you can run main.py with its defaults to simulate /dev/random, there ar
             less than the entropy requested, all of the available entropy will be popped. If entropy available is 0, 
             and a read is requested, the EAGAIN flag will raise in the form of an exception.
             
+            
+### Total time to complete: 
+
+Strictly speaking of programming time, 3 and a half hours were spent on development of the main program and the testing 
+suite, and debugging. An additional hour was required to create thorough documentation. I had the weekend and Monday to
+plot out on pen and paper how to logically build this script, so it was a matter of translating my diagrams into code.
+            
 
